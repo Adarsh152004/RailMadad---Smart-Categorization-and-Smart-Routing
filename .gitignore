@@ -1,0 +1,106 @@
+# ================================
+# GLOBAL
+# ================================
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+# ================================
+# PYTHON BACKEND (FastAPI)
+# ================================
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local database / failover storage
+backend/complaints_local.json
+
+
+# ================================
+# NEXT.JS FRONTEND
+# ================================
+
+# Node modules
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Production build
+build/
+
+# Cache
+.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage
+coverage/
+
+# Logs
+*.log
+
+
+# ================================
+# SUPABASE (optional local config)
+# ================================
+
+.supabase/
+
+
+# ================================
+# MISC
+# ================================
+
+# Temporary files
+tmp/
+temp/
+
+# Mac system files
+.AppleDouble
+.LSOverride
